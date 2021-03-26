@@ -59,7 +59,7 @@ export default class App extends Component {
         </TouchableOpacity>
         <View style={[styles.countContainer]}>
           <Text style={[styles.countText]}>
-            {this.state.count}
+            {this.state.count} click
           </Text>
         </View>
       </View>
